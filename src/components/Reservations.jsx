@@ -57,7 +57,7 @@ const Reservations = () => {
     const fetchReservations = async () => {
         try {
             let response = await fetch('https://striveschool-api.herokuapp.com/api/reservation')
-            console.log(response)
+            // console.log(response)
             // we came here after some time...
 
             if (response.ok) {
